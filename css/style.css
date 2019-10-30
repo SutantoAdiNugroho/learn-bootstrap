@@ -15,12 +15,9 @@ body {
   display: inline-block;
 }
 
-.box .img img {
+.box .card {
   width: 250px;
   height: 250px;
-}
-
-.box .card {
   margin-right: 10px;
 }
 
