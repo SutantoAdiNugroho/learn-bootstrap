@@ -1,14 +1,62 @@
 html,
 body {
   margin: 0 auto;
+  font-family: ubuntu;
 }
-.bg-garuda {
-  width: 100%;
-  height: 220px;
-  position: absolute;
-  z-index: -1;
-  background-color: rgb(202, 202, 202);
+.body-login {
+  width: 380px;
+  height: 350px;
+  border-radius: 20px;
+  margin: auto;
+  background: #fff;
 }
+
+nav {
+  background-color: #403f3c;
+}
+
+.slide-carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.d-block {
+  height: 500px;
+}
+
+#carouselExampleIndicators {
+  margin: auto;
+  width: 400px;
+}
+
+.button-start {
+  width: 188px;
+  height: 61px;
+
+  background: #ffae12;
+  border-radius: 30px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.button-auth {
+  padding: 10px 55px;
+  border-radius: 25px;
+  margin: auto 110px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  background: #ffae12;
+  font-size: 18px;
+}
+
+.input-text {
+  padding: 30px;
+  margin-top: 30px;
+  border: none;
+}
+
 .box {
   width: 250px;
   height: 350px;
@@ -17,14 +65,17 @@ body {
 
 .box .card {
   width: 250px;
-  height: 250px;
+  height: 425px;
   margin-right: 10px;
 }
 
-.footer-comb {
-  text-align: center;
-  margin-top: 160px;
+.brand-logo-dash {
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
+
 @media (max-width: 1000px) {
   .box {
     margin-top: 130px;
